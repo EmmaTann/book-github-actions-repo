@@ -1,4 +1,4 @@
-name: My first workflow
+name: Emmanuel_first_workflow
 
 on:
   push:
@@ -16,12 +16,22 @@ jobs:
 
     - name: Use Node.js 
       uses: actions/setup-node@v3
+      
+      
+       - run: npm install
+       
+       
+       - run: gulp build
+       
+           
 
-    - run: npm install
-
-    - run: gulp build
-
+        
     - uses: actions/upload-artifact@v3
+    
+          
       with:
-        name: MyPackage
-        path: dest
+      
+      
+       name: GitPractise_package
+       
+       path: C:\Git_practise
