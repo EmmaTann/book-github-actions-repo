@@ -34,4 +34,4 @@ jobs:
       
        name: GitPractise_package
        
-       path: C:\Git_practise
+       path: dest
