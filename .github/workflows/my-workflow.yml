@@ -18,10 +18,10 @@ jobs:
       uses: actions/setup-node@v3
       
       
-       - run: npm install
+    - run: npm install
        
        
-       - run: gulp build
+    - run: gulp build
        
            
 
